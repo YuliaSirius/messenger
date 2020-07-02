@@ -117,7 +117,6 @@ body {
   flex-direction: column;
   width: 31%;
   border-right: 2px solid #e9ebed;
-  padding-bottom: 10px;
 }
 
 .dialog_panel {
@@ -145,11 +144,11 @@ body {
 }
 
 .nav {
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 0;
   list-style: none;
   overflow: auto;
-  height: calc(100vh - 48px);
+  height: calc(97vh - 48px - 58px);
 }
 .nav a {
   display: flex;
@@ -252,7 +251,7 @@ body {
   align-items: flex-start;
   max-width: 560px;
   padding: 0 15px 0 15px;
-  margin: 12px auto;
+  margin: 20px auto 0;
   position: relative;
 }
 .history_message_wrap a img {
@@ -418,6 +417,21 @@ body {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+@media all and (max-width: 900px) {
+  .history_message_wrap {
+    margin: 20px 15px 0;
+  }
+}
+@media all and (max-width: 600px) {
+  .dialogs {
+    display: none;
+  }
+
+  .history_col {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
