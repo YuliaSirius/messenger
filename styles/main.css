@@ -1,0 +1,16 @@
+.body {
+  font: 13px/18px Tahoma, sans-serif, Arial, Helvetica;
+}
+.head {
+  max-width: 1010px;
+  margin: 0 auto;
+  height: 48px;
+  background: #5682a3;
+}
+.page_body {
+    display: flex;
+}
+.dialogs {
+    display: flex;
+    flex-direction: column;
+}
